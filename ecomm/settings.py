@@ -121,6 +121,7 @@ STATIC_URL = '/static/'
 MEDIA_URL= '/media/'
 MEDIA_ROOT = BASE_DIR/'media'
 LOGOUT_REDIRECT_URL = 'accounts/login/'
+ALLOWED_HOSTS = ['dairyproducts.onrender.com', '127.0.0.1', 'localhost']
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
